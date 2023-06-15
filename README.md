@@ -10,19 +10,19 @@ Create and publish flaring fast blogs with <i>next-cms-ghost</i>. Powered by the
 
 &nbsp;
 
-## 🔥 Alternative
+## 🔥 Alternatif
 
 Check out [Blogody](https://www.blogody.com) for an integrated solution with all the benefits of this repository included!
 
 &nbsp;
 
-## ✨ Features
+## ✨ Özellikler
 
 <details>
 <summary>Ghost CMS integration</summary>
 <br />
 <ul>
-  <li>Supports Ghost `v3` and `v4`</li>
+  <li>Ghost `v3` and `v4`ü Destekler</li>
 </ul>
 </details>
 <details>
@@ -36,12 +36,12 @@ Check out [Blogody](https://www.blogody.com) for an integrated solution with all
   <li>Styled 404 page</li>
   <li>Preview Section in posts</li>
   <li>Sitemap</li>
-  <li>RSS feed</li>
-  <li>SEO optimized</li>
+  <li>RSS kaynağı</li>
+  <li>SEO optimizasyonlu</li>
 </ul>
 </details>
 <details>
-<summary>Extened Casper Styles ✨</summary>
+<summary>Geliştirilmiş Casper Görünümü ✨</summary>
 <br />
 <ul>
   <li>Dark Mode</li>
@@ -69,7 +69,7 @@ Check out [Blogody](https://www.blogody.com) for an integrated solution with all
 </ul>
 </details>
 <details>
-<summary>Developer friendly</summary>
+<summary>dGeliştirici dostu</summary>
 <br />
 <ul>
   <li>MIT licenced</li>
@@ -101,7 +101,7 @@ Check out [Blogody](https://www.blogody.com) for an integrated solution with all
 
 &nbsp;
 
-## 🚀 Performance
+## 🚀 Performans
 
 ![Lighthouse Score](https://static.gotsby.org/v1/assets/images/jamify-lh-scores-light.gif)
 
@@ -109,7 +109,7 @@ Check out [Blogody](https://www.blogody.com) for an integrated solution with all
 
 &nbsp;
 
-## 🏁 Getting Started
+## 🏁 Başlarken
 
 ```bash
 git clone https://github.com/styxlab/next-cms-ghost.git
@@ -125,7 +125,7 @@ yarn build
 
 &nbsp;
 
-## 🌀 NextJS image optimizations
+## 🌀 NextJS görsel optimizasyonları
 
 The `IMAGE_DOMAINS` environment variable must contain a comma separated list of all domains that you use for in-sourcing images. For example:
 
@@ -137,7 +137,7 @@ IMAGE_DOMAINS=res.cloudinary.com,yoursource.imgix.net
 
 &nbsp;
 
-## 🌎 Domain Settings
+## 🌎 Alan adı ayarları
 
 The `SITE_URL` environment variable should be set to the public facing URL of your site, in most cases to your custom domain.
 
@@ -156,11 +156,11 @@ In all other cases `SITE_URL` is set to `http://localhost:3000`.
 
 &nbsp;
 
-## 🔑 Ghost Content API keys
+## 🔑 Ghost İçerik API anahtarları
 
 All content is sourced from a Ghost CMS. Choose the method according to your build scenario.
 
-### Building locally
+### Yerelleştirme
 
 Create a new text file `.env.local` in the project root folder with the following content:
 
@@ -171,7 +171,7 @@ CMS_GHOST_API_KEY=9fccdb0e4ea5b572e2e5b92942
 
 Change `CMS_GHOST_API_URL` and `CMS_GHOST_API_KEY` with the values that you can generate in your Ghost Admin under `Integrations`.
 
-### Building with cloud providers
+### Bulut sağlayıcılarla oluşturma
 
 If you build your project with a cloud provider, the best option is to provide the keys with environment variables:
 
@@ -198,53 +198,19 @@ For best SEO results it is strongly recommended to disable the default Ghost Han
 
 &nbsp;
 
-## 💣 Reporting issues
+## 💣 Hata bildir
 
 Please report all bugs and issues at [next-cms-ghost/issues](https://github.com/styxlab/next-cms-ghost/issues).
 
 &nbsp;
 
-## 🎈 Contributions
+## 🎈 Dağıtımlar
 
 PRs are welcome! Consider contributing to this project if you want to make a better web.
 
 Special thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/weisisheng"><img src="https://avatars1.githubusercontent.com/u/47701145?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vince Fulco</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/commits?author=weisisheng" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/BeatPlus"><img src="https://avatars3.githubusercontent.com/u/2022256?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Manuel Taberna</b></sub></a><br /><a href="#translation-BeatPlus" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://akshatmittal.com"><img src="https://avatars1.githubusercontent.com/u/1667481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akshat Mittal</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/commits?author=akshatmittal" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/christianlauer"><img src="https://avatars0.githubusercontent.com/u/65625616?v=4?s=100" width="100px;" alt=""/><br /><sub><b>christianlauer</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/issues?q=author%3Achristianlauer" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://linkedin.com/in/rahulsuresh98"><img src="https://avatars2.githubusercontent.com/u/22114682?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rahul Suresh</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/issues?q=author%3Aicy-meteor" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://blog.miguelbernard.com"><img src="https://avatars.githubusercontent.com/u/1928530?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Miguel Bernard</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/commits?author=mbernard" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/marsflow"><img src="https://avatars.githubusercontent.com/u/7637037?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stevan Aji</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/commits?author=marsflow" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/imtoanle"><img src="https://avatars.githubusercontent.com/u/4002252?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Toan Le</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/issues?q=author%3Aimtoanle" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="http://davor.pro"><img src="https://avatars.githubusercontent.com/u/1422662?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Davor Budimir</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/issues?q=author%3ABuda9" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://simonholdorf.com"><img src="https://avatars.githubusercontent.com/u/4987937?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Simon Holdorf</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/issues?q=author%3Asimhol" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/timuster"><img src="https://avatars.githubusercontent.com/u/2242052?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sumit Kumar</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/issues?q=author%3Atimuster" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/francolamcn"><img src="https://avatars.githubusercontent.com/u/73523739?v=4?s=100" width="100px;" alt=""/><br /><sub><b>francolamcn</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/issues?q=author%3Afrancolamcn" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://www.ambrosesoft.com/"><img src="https://avatars.githubusercontent.com/u/60314?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Charles Chan</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/commits?author=chancharles" title="Code">💻</a></td>
-    <td align="center"><a href="https://raihanameen.github.io"><img src="https://avatars.githubusercontent.com/u/36153203?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Raihan Ameen</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/issues?q=author%3Araihanameen" title="Bug reports">🐛</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="http://andygrunwald.com/"><img src="https://avatars.githubusercontent.com/u/320064?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andy Grunwald</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/commits?author=andygrunwald" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/seoxyz"><img src="https://avatars.githubusercontent.com/u/54107458?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hikz</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/commits?author=seoxyz" title="Code">💻</a></td>
-    <td align="center"><a href="https://huydhoang.com"><img src="https://avatars.githubusercontent.com/u/8493044?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Huy</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/issues?q=author%3Ahuydhoang" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://meyer-laurent.com"><img src="https://avatars.githubusercontent.com/u/94935904?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Laurent Meyer</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/commits?author=laurentmmeyer" title="Code">💻</a></td>
-    <td align="center"><a href="https://prettyfrenchgames.com/"><img src="https://avatars.githubusercontent.com/u/10576004?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Garfounkel</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/commits?author=Garfounkel" title="Code">💻</a></td>
-    <td align="center"><a href="http://www.dassiorleando.xyz"><img src="https://avatars.githubusercontent.com/u/7150752?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Orleando Dassi</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/commits?author=dassiorleando" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/flaviolivolsi"><img src="https://avatars.githubusercontent.com/u/5151628?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Flavio Li Volsi</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/commits?author=flaviolivolsi" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/nring"><img src="https://avatars.githubusercontent.com/u/801071?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nat Ring</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/commits?author=nring" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/vitoropereira"><img src="https://avatars.githubusercontent.com/u/47868559?v=4?s=100" width="100px;" alt=""/><br /><sub><b>VITOR PEREIRA</b></sub></a><br /><a href="https://github.com/styxlab/next-cms-ghost/commits?author=vitoropereira" title="Code">💻</a></td>
-  </tr>
+
 </table>
 
 <!-- markdownlint-restore -->
@@ -256,11 +222,11 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 &nbsp;
 
-## 🧐 Disclaimer
+## 🧐 Uyarı
 
-This project is not affiliated with [NextJS](https://nextjs.org/) or [Ghost](https://ghost.org/).
+Bu proje [NextJS](https://nextjs.org/) ya da [Ghost](https://ghost.org/).
 
-&nbsp;
+&nbsp; ile bağlantılı değildir!
 
 # Copyright & License
 
